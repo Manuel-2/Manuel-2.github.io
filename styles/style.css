@@ -313,6 +313,10 @@ body {
     background-image: url(../Assets/pics/bunny-ascension.PNG);
 }
 
+#proyect08 .proyect-image {
+    background-image: url(../Assets/pics/GooglePic.PNG);
+}
+
 @media (max-width:1120px) {
     .proyects-container {
         grid-template-columns: repeat(2, 1fr);
@@ -349,6 +353,9 @@ body {
         width: 100%;
         height: 100%;
         justify-content: space-between;
+    }
+    .project-tile {
+        box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.75);
     }
     .menu-item {
         width: 33%;
