@@ -1,239 +1,406 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manuel Peñaloza</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
     </style>
     <link rel="icon" href="./logo.png" type="image/png" sizes="32x32" />
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <header class="header" id="navbar">
+      <!-- header superior -->
+      <div class="top-header">
+        <p class="top-header-title">Manuel Peñaloza</p>
 
-        <!-- header superior -->
-        <div class="top-header">
-
-            <p class="top-header-title">Manuel Peñaloza</p>
-
-            <div class="social-container">
-                <!-- iconos con enlaces a mis redes o contacto -->
-                <a class="social-item" id="profile-link" href="https://github.com/Manuel-2" target="_blank"><img src="./Assets/icons/icons8-github.svg" alt="github"></a>
-                <a class="social-item" href="https://twitter.com/Manuel2Code" target="_blank"><img src="./Assets/icons/icons8-twitter-circled.svg" alt="twitter"></a>
-                <a class="social-item" href="https://manuel-2.itch.io/" target="_blank"><img src="./Assets/icons/icons8-itch-io.svg" alt="itch io"></a>
-            </div>
-
+        <div class="social-container">
+          <!-- iconos con enlaces a mis redes o contacto -->
+          <a
+            class="social-item"
+            id="profile-link"
+            href="https://github.com/Manuel-2"
+            target="_blank"
+            ><img src="./Assets/icons/icons8-github.svg" alt="github"
+          /></a>
+          <a
+            class="social-item"
+            href="https://twitter.com/Manuel2Code"
+            target="_blank"
+            ><img src="./Assets/icons/icons8-twitter-circled.svg" alt="twitter"
+          /></a>
+          <a
+            class="social-item"
+            href="https://manuel-2.itch.io/"
+            target="_blank"
+            ><img src="./Assets/icons/icons8-itch-io.svg" alt="itch io"
+          /></a>
         </div>
+      </div>
 
-        <!-- header inferior -->
-        <div class="secondary-header">
-            <ul class="sections-links-container">
-                <li class="menu-item">
-                    <a class="menu-item--link" href="#welcome-section">Inicio</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-item--link" href="#projects">Proyectos</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-item--link" href="#more-about-me">Sobre mi</a>
-                </li>
-            </ul>
-        </div>
-
+      <!-- header inferior -->
+      <div class="secondary-header">
+        <ul class="sections-links-container">
+          <li class="menu-item">
+            <a class="menu-item--link" href="#welcome-section">Inicio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item--link" href="#projects">Proyectos</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item--link" href="#more-about-me">Sobre mi</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-
     <main>
+      <section id="welcome-section" class="menu-section">
+        <div class="presentation-card">
+          <h1 class="card-tilte">Hola :)</h1>
+          <p class="card-text">
+            Conoce mis proyectos, quien soy y a que me dedico
+          </p>
+        </div>
+      </section>
 
+      <section id="projects">
+        <h2 class="proyects-title">Estos son algunos de mis proyectos</h2>
 
-        <section id="welcome-section" class="menu-section">
-            <div class="presentation-card">
-                <h1 class="card-tilte">Hola :)</h1>
-                <p class="card-text">Conoce mis proyectos, quien soy y a que me dedico</p>
-            </div>
+        <section class="proyects-container">
+          <article class="project-tile" id="proyect01">
+            <a
+              href="https://pagina-de-tributo-free-code-camp-proyect.vercel.app/"
+              target="_blank"
+            >
+              <div class="item-header">
+                <h4>Tribute page</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect02">
+            <a
+              href="https://technical-documentation-three.vercel.app/"
+              target="_blank"
+            >
+              <div class="item-header">
+                <h4>Technical documentation</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect03">
+            <a href="https://form-green.vercel.app/" target="_blank">
+              <div class="item-header">
+                <h4>Survey form</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect04">
+            <a
+              href="https://product-landing-page-iota.vercel.app/"
+              target="_blank"
+            >
+              <div class="item-header">
+                <h4>Product landing page</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect05">
+            <a href="https://codepen.io/manuel-2/pen/eYgdeQr" target="_blank">
+              <div class="item-header">
+                <h4>Charmander-CSS</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect08">
+            <a href="https://my-proyect01.vercel.app/" target="_blank">
+              <div class="item-header">
+                <h4>Clon of Google</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect06">
+            <a href="https://manuel-2.itch.io/telescope-travel" target="_blank">
+              <div class="item-header">
+                <h4>Telescope travel</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-unity.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img src="./Assets/icons/csharp.svg" alt="pic" class="icon" />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect07">
+            <a href="https://manuel-2.itch.io/bunny-ascension" target="_blank">
+              <div class="item-header">
+                <h4>Bunny Ascension</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-unity.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img src="./Assets/icons/csharp.svg" alt="pic" class="icon" />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect09">
+            <a href="https://manuel-2.itch.io/infinite-travel" target="_blank">
+              <div class="item-header">
+                <h4>Infinite Travel</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-unity.svg"
+                  alt="Unity Logo"
+                  class="icon"
+                />
+                <img src="./Assets/icons/csharp.svg" alt="Csharp Logo" class="icon" />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect10">
+            <a href="https://calculadora-interplanetaria.vercel.app/" target="_blank">
+              <div class="item-header">
+                <h4>Calculadora interplanetaria</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/javascript.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
+          <article class="project-tile" id="proyect11">
+            <a href="https://calculadora-para-descuentos.vercel.app/" target="_blank">
+              <div class="item-header">
+                <h4>Calculadora para descuentos</h4>
+              </div>
+              <div class="icons-container">
+                <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
+                <img
+                  src="./Assets/icons/icons8-html-5.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/icons8-css3.svg"
+                  alt="pic"
+                  class="icon"
+                />
+                <img
+                  src="./Assets/icons/javascript.svg"
+                  alt="pic"
+                  class="icon"
+                />
+              </div>
+              <div class="proyect-image"></div>
+            </a>
+          </article>
+
         </section>
+      </section>
 
-
-        <section id="projects">
-            <h2 class="proyects-title">Estos son algunos de mis proyectos</h2>
-
-            <section class="proyects-container">
-
-                <article class="project-tile" id="proyect01">
-                    <a href="https://pagina-de-tributo-free-code-camp-proyect.vercel.app/" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Tribute page</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-                <article class="project-tile" id="proyect02">
-                    <a href="https://technical-documentation-three.vercel.app/" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Technical documentation</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-
-                <article class="project-tile" id="proyect03">
-                    <a href="https://form-green.vercel.app/" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Survey form</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-
-                <article class="project-tile" id="proyect04">
-                    <a href="https://product-landing-page-iota.vercel.app/" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Product landing page</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-
-                <article class="project-tile" id="proyect05">
-                    <a href="https://codepen.io/manuel-2/pen/eYgdeQr" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Charmander-CSS</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-                <article class="project-tile" id="proyect08">
-                    <a href="https://my-proyect01.vercel.app/" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Clon of Google</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-html-5.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/icons8-css3.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-                <article class="project-tile" id="proyect06">
-                    <a href="https://manuel-2.itch.io/telescope-travel" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Telescope travel</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-unity.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/csharp.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-                <article class="project-tile" id="proyect07">
-                    <a href="https://manuel-2.itch.io/bunny-ascension" target="_blank">
-
-                        <div class="item-header">
-                            <h4>Bunny Ascension</h4>
-                        </div>
-                        <div class="icons-container">
-                            <!-- iconos con imagenes de las tecnologias usadas en el proyecto -->
-                            <img src="./Assets/icons/icons8-unity.svg" alt="pic" class="icon">
-                            <img src="./Assets/icons/csharp.svg" alt="pic" class="icon">
-                        </div>
-                        <div class="proyect-image"></div>
-                    </a>
-                </article>
-
-
-            </section>
-        </section>
-
-
-        <section id="more-about-me">
-            <div class="about-me--title">
-                <h2>Sobre mi</h2>
-            </div>
-            <div class="info-container">
-                <div class="item-about-me">
-                    <h4>¿A qué me dedico?</h4>
-                    <p>Apenas tengo 16 años yo tan solo estudio, no tengo trabajo actualmente, pero antes de la pandemia trabajaba en un restaurante y con mi salario hacia préstamos con intereses entonces con mis ingresos compré cursos y durante esta pandemia
-                        he estado estudiando lo que más me apasiona la informática el software y la programación.</p>
-                    <p>Actualmente estoy empezando a estudiar desarrollo Front-End y en el mes de creación de esta página(marzo-2021) aprendí un montón de HTML y CSS sobre todo CSS con el que estuve haciendo varios proyectos semanales, también he estado
-                        estudiando Python.</p>
-                    <h4>Mis aspiraciones y objetivos</h4>
-                    <p>Yo soy de las personas que piensan fuertemente que todo conocimiento y habilidad se puede aprender y dominar sin importar quien eres. Yo Manuel Eduardo Peñaloza López seré un desarrollador Full-Stack, Game-Dev e ingeniero, pienso dominar
-                        este interesante campo de la informática, actualmente estudio de unas 6 a 12 horas al día para alcanzar mi meta y me propongo desafíos semanales, como aprobar 3 cursos mínimo, crear un proyecto y aprender algo nuevo.</p>
-                </div>
-                <div class="item-about-me">
-                    <h4>Mis hobbies</h4>
-                    <p>Me encantan los Videojuegos son una pieza informática-artística increíble, mis géneros favoritos para jugar son los juegos de supervivencia y sandbox.</p>
-                    <p>Otro hobby que tengo es el Game-Dev, la primera vez que creé un videojuego fue cuando estaba en secundaria en mi ciudad estaban dando cursos de game-dev(usando construc 3) y robótica(con legos) para principiantes y esos temas ya me
-                        interesaban un montón entonces poco a poco fui descubriendo más y más sobre la creación de estos actualmente uso Unity y C# como herramienta principal para llevar a cabo esta actividad.</p>
-                    <p>Ocasionalmente me paso por CodeSignal para resolver problemas y ejercicios de programación me gusta solucionarlos usando C y últimamente con Python.</p>
-                    <p>También toco un poco la guitarra, empece en el segundo semestre de preparatoria debido a que yo asistía al taller de música.</p>
-                    <p>Por último también me interesa la electrónica, de vez en cuando realizo proyectos con Arduino</p>
-                </div>
-            </div>
-        </section>
-
+      <section id="more-about-me">
+        <div class="about-me--title">
+          <h2>Sobre mi</h2>
+        </div>
+        <div class="info-container">
+          <div class="item-about-me">
+            <h4>¿A qué me dedico?</h4>
+            <p>
+              Apenas tengo 16 años yo tan solo estudio, no tengo trabajo
+              actualmente, pero antes de la pandemia trabajaba en un restaurante
+              y con mi salario hacia préstamos con intereses entonces con mis
+              ingresos compré cursos y durante esta pandemia he estado
+              estudiando lo que más me apasiona la informática el software y la
+              programación.
+            </p>
+            <p>
+              Actualmente estoy empezando a estudiar desarrollo Front-End y en
+              el mes de creación de esta página(marzo-2021) aprendí un montón de
+              HTML y CSS sobre todo CSS con el que estuve haciendo varios
+              proyectos semanales, también he estado estudiando Python.
+            </p>
+            <h4>Mis aspiraciones y objetivos</h4>
+            <p>
+              Yo soy de las personas que piensan fuertemente que todo
+              conocimiento y habilidad se puede aprender y dominar sin importar
+              quien eres. Yo Manuel Eduardo Peñaloza López seré un desarrollador
+              Full-Stack, Game-Dev e ingeniero, pienso dominar este interesante
+              campo de la informática, actualmente estudio de unas 6 a 12 horas
+              al día para alcanzar mi meta y me propongo desafíos semanales,
+              como aprobar 3 cursos mínimo, crear un proyecto y aprender algo
+              nuevo.
+            </p>
+          </div>
+          <div class="item-about-me">
+            <h4>Mis hobbies</h4>
+            <p>
+              Me encantan los Videojuegos son una pieza informática-artística
+              increíble, mis géneros favoritos para jugar son los juegos de
+              supervivencia y sandbox.
+            </p>
+            <p>
+              Otro hobby que tengo es el Game-Dev, la primera vez que creé un
+              videojuego fue cuando estaba en secundaria en mi ciudad estaban
+              dando cursos de game-dev(usando construc 3) y robótica(con legos)
+              para principiantes y esos temas ya me interesaban un montón
+              entonces poco a poco fui descubriendo más y más sobre la creación
+              de estos actualmente uso Unity y C# como herramienta principal
+              para llevar a cabo esta actividad.
+            </p>
+            <p>
+              Ocasionalmente me paso por CodeSignal para resolver problemas y
+              ejercicios de programación me gusta solucionarlos usando C y
+              últimamente con Python.
+            </p>
+            <p>
+              También toco un poco la guitarra, empece en el segundo semestre de
+              preparatoria debido a que yo asistía al taller de música.
+            </p>
+            <p>
+              Por último también me interesa la electrónica, de vez en cuando
+              realizo proyectos con Arduino
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <footer class="footer">
-        <p>By: Manuel Eduardo Peñaloza López</p>
-        <p>Fecha de elavoración: 30/03/2021</p>
-        <p>Contacto:
-            <a href="mailto:manuelpl.contact@gmail.com" target="_blank">manuelpl.contact@gmail.com</a>
-        </p>
+      <p>By: Manuel Eduardo Peñaloza López</p>
+      <p>Fecha de elavoración: 30/03/2021</p>
+      <p>
+        Contacto:
+        <a href="mailto:manuelpl.contact@gmail.com" target="_blank"
+          >manuelpl.contact@gmail.com</a
+        >
+      </p>
     </footer>
-
-
-</body>
-
+  </body>
 </html>
