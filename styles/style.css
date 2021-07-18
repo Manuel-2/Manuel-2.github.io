@@ -337,6 +337,12 @@ body {
     background-position: 0 5px;
 }
 
+#proyect12 .proyect-image{
+    background-image: url(https://camo.githubusercontent.com/7d5402bca7a4e48a7b9bf5a939bf07be4b167a72b81e8c0bfba88496c78e0aeb/68747470733a2f2f692e706f7374696d672e63632f6e564453326856572f6f766572766965772e706e67);
+    background-size: contain;
+    background-position: 0 5px;
+}
+
 
 @media (max-width:1120px) {
     .proyects-container {
