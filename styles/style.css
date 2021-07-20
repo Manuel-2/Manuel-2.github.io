@@ -343,6 +343,12 @@ body {
     background-position: 0 5px;
 }
 
+#proyect13 .proyect-image{
+    background-image: url(https://i.postimg.cc/mrydctNR/404-Page-Preview.png);
+    background-size: contain;
+    background-position: center;
+}
+
 
 @media (max-width:1120px) {
     .proyects-container {
